@@ -1,0 +1,29 @@
+body{
+    background-image: url(./madison-bracaglia-fcWAwPKpkTU-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+}
+nav{
+ margin-top: 300px;
+ font-size: 50px;
+}
+h3{
+    font-size: 60px;
+}
+button{
+    padding: 19px 40px 19px 40px;
+    font-size: 35px;
+    margin: 20px;
+}
+h3{
+    margin-left: 100px;
+}
+h5{
+    margin-left: 180px;
+}
+.RX{
+    margin-left: 180px;
+
+    
+}
+
