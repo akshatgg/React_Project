@@ -6,10 +6,22 @@ function App() {
 
 
   return (
-    <>
+    <div>
       
       <Card player="X"/>
-    </>
+      <Card player="X"/>
+      <Card player="X"/>
+
+      <Card player="X"/>
+      <Card player="X"/>
+      <Card player="X"/>
+
+      <Card player="X"/>
+      <Card player="X"/>
+      <Card player="X"/>
+      
+      
+    </div>
   )
 }
 

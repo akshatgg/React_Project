@@ -13,6 +13,5 @@ return (
     {icon}
 </div>
 )
-
 }
 export default Card;

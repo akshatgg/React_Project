@@ -1,3 +1,8 @@
 :root {
     --yellow: #ffc107;
 }
+div{
+    display: grid;
+    grid-template-columns: repeat(3,130px);
+    grid-template-rows: repeat(3,130px);
+}
