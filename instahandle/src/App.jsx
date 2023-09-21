@@ -1,4 +1,4 @@
-import './App.css'
+
 import { useState } from "react"
 import logo from "./assets/instagram.png"
 function App() {
@@ -8,7 +8,7 @@ const switchlogin=()=>{
 }
   return (   
       <div className="container">
-
+<div className='user'>
   <img src={logo} alt="" className="image"/>
   <input hidden={login} name="" placeholder="Mobile number or Email" type ="text"/>
   <input hidden={login} name="" placeholder="First Name" type ="text"/>
@@ -20,7 +20,7 @@ const switchlogin=()=>{
     {!login ? "Dont't have an account":"Have an account"} <span onClick={switchlogin}>{login ? "Sign up" : "Log in"}</span>
       </div>
 
-    
+      </div>
       </div>
   )
 }

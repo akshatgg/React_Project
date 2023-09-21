@@ -1,6 +1,6 @@
-import Card from "./components/Card/Card";
 
 import  './App.css';
+import Grid from "./components/Grid/Grid";
 
 function App() {
 
@@ -8,15 +8,7 @@ function App() {
   return (
     <body>
     <div> 
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+ <Grid numberofcard={9}/>
       
     </div>
       </body>
